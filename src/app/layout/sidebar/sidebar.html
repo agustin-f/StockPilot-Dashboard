@@ -1,0 +1,8 @@
+<app-avatar [user]="user"></app-avatar>
+<ul class="sidebar__menu">
+  @for (item of menuItems; track item.route) {
+    <li>
+      <app-sidebar-item [item]="item"> </app-sidebar-item>
+    </li>
+  }
+</ul>

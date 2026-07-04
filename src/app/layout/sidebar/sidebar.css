@@ -1,0 +1,41 @@
+.sidebar {
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+
+  height: 100vh;
+
+  padding: var(--space-5);
+
+  background: var(--color-surface);
+
+  border-right: 1px solid var(--color-border);
+}
+
+.sidebar__logo {
+  margin-bottom: var(--space-6);
+}
+
+.sidebar__menu {
+  list-style: none;
+
+  display: grid;
+
+  gap: var(--space-2);
+}
+
+.sidebar__user {
+  display: flex;
+
+  align-items: center;
+
+  gap: var(--space-3);
+
+  padding-top: var(--space-5);
+
+  border-top: 1px solid var(--color-border);
+}
+
+.sidebar {
+  border: 3px solid blue;
+}
